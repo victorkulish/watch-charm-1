@@ -8,7 +8,7 @@
   font-family: "Gilroy";
   src: url("Gilroy-Regular.eot");
   src: local("Gilroy Regular"), local("Gilroy-Regular"),
-    url("Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Regular.eot?") format("embedded-opentype"),
     url("Gilroy-Regular.woff2") format("woff2"),
     url("Gilroy-Regular.woff") format("woff"),
     url("Gilroy-Regular.ttf") format("truetype");
@@ -19,7 +19,7 @@
   font-family: "Gilroy";
   src: url("Gilroy-Bold.eot");
   src: local("Gilroy Bold"), local("Gilroy-Bold"),
-    url("Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Bold.eot?") format("embedded-opentype"),
     url("Gilroy-Bold.woff2") format("woff2"),
     url("Gilroy-Bold.woff") format("woff"),
     url("Gilroy-Bold.ttf") format("truetype");
@@ -30,7 +30,7 @@
   font-family: "Gilroy";
   src: url("Gilroy-Semibold.eot");
   src: local("Gilroy Semibold"), local("Gilroy-Semibold"),
-    url("Gilroy-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Semibold.eot?") format("embedded-opentype"),
     url("Gilroy-Semibold.woff2") format("woff2"),
     url("Gilroy-Semibold.woff") format("woff"),
     url("Gilroy-Semibold.ttf") format("truetype");
@@ -41,7 +41,7 @@
   font-family: "Gilroy";
   src: url("Gilroy-Medium.eot");
   src: local("Gilroy Medium"), local("Gilroy-Medium"),
-    url("Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Medium.eot?") format("embedded-opentype"),
     url("Gilroy-Medium.woff2") format("woff2"),
     url("Gilroy-Medium.woff") format("woff"),
     url("Gilroy-Medium.ttf") format("truetype");
@@ -73,10 +73,6 @@ a {
   margin-bottom: 0;
 }
 
-address {
-}
-img {
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -98,6 +94,9 @@ img {
 /* ----------------------------------header---------------------------------------
 ----------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------- */
+.header {
+  display: flex;
+}
 .logotype {
   font-weight: 500;
   font-size: 16px;
